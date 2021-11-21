@@ -890,7 +890,7 @@ public class BlackjackTest {
 
     @Test
     public void testAllBust() {
-        sendDeck("22,7,23,5,24,8,25,9,12,11,10");
+        sendDeck("22,7,23,5,24,8,25,9,12,11,10,36");
         driver1.findElement(By.id("deal")).click();
         driver2.findElement(By.id("deal")).click();
         WebElement hitButton1 = new WebDriverWait(driver1, 5)
