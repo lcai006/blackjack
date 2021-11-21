@@ -1,0 +1,20 @@
+{
+  "name": "Blackjack",
+  "version": "0.0.1",
+  "author": "",
+  "description": "",
+  "main": "./server.js",
+  "keywords": [],
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0",
+    "socket.io": "^0.9.19"
+  },
+  "noAnalyze": true,
+  "engines": {
+    "node": ">=0.6"
+  },
+  "devDependencies": {
+    "node": "^17.0.1"
+  },
+  "optionalDependencies": {}
+}

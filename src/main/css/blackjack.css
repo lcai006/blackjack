@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    background-color: rgba(60,135,60,1);
+    color: White;
+	min-height: 100%;
+}
+
+
+.container {
+  align-items: center;
+  justify-content: flex-start;
+  height: 240px;
+  position: relative;
+  width:100%;
+}
+
+.cards {
+    min-height: 170px;
+}
+
+.name{
+    min-width: 250px;
+}
+
+.score {
+	min-height: 20px;
+	min-width: 80px;
+}
+
+#result {
+    min-height: 20px;
+}
+
+.card {
+  font-family: 'Times New Roman', serif;
+  position: relative;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  padding:2px;
+  background-color: #F6F7EB;
+  display: flex;
+  -webkit-box-shadow: 2px -2px 9px -1px rgba(0,0,0,1);
+  -moz-box-shadow: 2px -2px 9px -1px rgba(0,0,0,1);
+  box-shadow: 2px -2px 9px -1px rgba(0,0,0,1);
+  margin:10px;
+}
+
+.back {
+  background:
+          linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+          linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+          linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+          linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+          #36c;
+  background-size: 15px 30px;
+  border-radius: 5px;
+}
+
+button {
+	margin: 12px;
+	min-width: 70px;
+}
+
+.border-line {
+  border:2px solid #F6F7EB;
+  opacity: 0.8;
+  margin: 20px 0;
+}
+
+.D, .H {
+  color:#E94F37;
+}
+
+.S, .C {
+  color:#393E41;
+}
+
+.rank {
+  position: absolute;
+  width:30px;
+  height: 28px;
+}
+
+.top {
+  top: -5px;
+  left: 2px;
+}
+
+.bottom {
+  margin-bottom:5px;
+  bottom:2px;
+  right: 2px;
+  text-align: right;
+}
+
+.suit {
+  margin:auto;
+  font-size: 60px;
+}
+
+.status {
+    margin: 5px;
+    min-height: 20px;
+}
